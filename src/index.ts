@@ -1,3 +1,4 @@
+import { Circle } from "./CircleInheritance";
 import { MalwareAnalysis } from "./MalwareAnalysis";
 import { PermissionEnum, Permission } from "./PermissionEnum";
 import { UpperCaseTypes } from "./UppercaseTypes";
@@ -11,5 +12,8 @@ import { UpperCaseTypes } from "./UppercaseTypes";
 // console.log(ml.simulate(records));
 
 
-const pe = new PermissionEnum;
-console.log(pe.getPermissionList(Permission.Read | Permission.Execute));
+// const pe = new PermissionEnum;
+// console.log(pe.getPermissionList(Permission.Read | Permission.Execute));
+
+const ci = new Circle(10, 50, 8);
+console.log(ci.x, ci.y, ci.radius);
