@@ -4,8 +4,7 @@
   "description": "Typescript project setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon ./src/index.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "typescript"
@@ -13,8 +12,6 @@
   "author": "Javed Gardezi",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   }
 }
